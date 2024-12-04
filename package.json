@@ -1,0 +1,23 @@
+{
+  "name": "fingerprints",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node fingerprint.js",
+    "dev": "nodemon fingerprint.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "zk-jubaer": "^2.0.5",
+    "zkteco-js": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.5"
+  }
+}
